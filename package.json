@@ -1,0 +1,22 @@
+{
+    "name": "ultra-dark-theme",
+    "displayName": "Ultra Dark Theme",
+    "description": "Uses a darker black than the default dark theme. Darkens comments to dark grey. Lightens general text.",
+    "version": "0.0.1",
+    "publisher": "lundbird",
+    "engines": {
+        "vscode": "^1.27.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ultra Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Ultra Dark-color-theme.json"
+            }
+        ]
+    }
+}
